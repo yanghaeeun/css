@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+div.container
+{background-color: #ccc;
+padding: 50px;}
+
+
+
+section{background-color: #00f;}
+
+#section1{background-color: #f00
+  ;}
+
+  #section2>p{background-color: #0f0;}
+  
+  
+  secction#section2>p{background-color: #0f0;}
+</style>
+
+
+<body>  
+  <!-- 3개가 header / div.comtainer / footer가 자식으로 가려면 div#wrap>header+.container+footer -->
+  
+  <!-- section 1 / section 2 / section3을 emmet으로 나타내봐~  
+    -> container의 자식으로 들어갈때 /div 사이에 있는지 확인하고! 
+      section*3#section$-->
+
+      <!--p+.box>h1+p2 -->
+ 
+  <div id="wrap">
+    <header>
+      header
+    </header>
+    <div class="container">
+      <section id="section1"></section>
+      section1
+
+      <section id="section2"></section>
+      section2
+      <p>section2&gt;p</p>
+      <div class="div box">
+        <p>section2&gt;p&gt.div.box&gt;p</p>
+        <p>section2&gt;p&gt.div.box&gt;p</p>
+        
+        <h1></h1>
+        <p></p>
+        <p></p>
+
+
+      </div>
+      
+      
+      
+      <section id="section3"></section>
+  
+      
+
+
+    </div>
+    <footer></footer>
+  </div>
+
+
+
+
+
+
+</body>
+</html>
