@@ -35,10 +35,20 @@
       margin:100px atuo;
       
     }
+<<<<<<< HEAD
+=======
+    
+ul{
+  width:80%
+  margine:50px auto;
+  background-color:#ccc}
+>>>>>>> ac67f3f (0914)
 
     ul li{
       background-color: #f68;
       width: 100px;
+      padding:2rem;
+      display: inline;
     }
 
    .test{
