@@ -39,7 +39,10 @@
 ul{
   width:80%
   margine:50px auto;
-  background-color:#ccc}
+  background-color:#ccc
+  text-align: center;
+}
+
 
     ul li{
       background-color: #f68;
