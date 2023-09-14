@@ -49,7 +49,7 @@
 <body>
   <h1 class="page-title">웹폰트 사용</h1>
 
-  <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti voluptates nisi veniam, debitis laboriosam accusantium dolorum tenetur eum adipisci temporibus expedita cumque nulla illum modi a qui. Eos, cupiditate?</div>
+  <div class="box">Lorem <span class="test">ipsum dolor</span> sit amet consectetur adipisicing elit. Reprehenderit deleniti voluptates nisi veniam, debitis laboriosam accusantium dolorum tenetur eum adipisci temporibus expedita cumque nulla illum modi a qui. Eos, cupiditate?</div>
   <!-- .box>lorem -->
   <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum qui pariatur eveniet quas at illo placeat aliquam enim tenetur magni, velit iste ab architecto quae! Assumenda fugit id sit suscipit!</div>
   <!-- ul>li*4>a>{text$} -->
