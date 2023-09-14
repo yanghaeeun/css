@@ -35,6 +35,10 @@
       margin:100px atuo;
       
     }
+    
+ul{
+  width:80%
+  background-color:#ccc}
 
     ul li{
       background-color: #f68;
