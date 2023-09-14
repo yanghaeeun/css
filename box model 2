@@ -46,7 +46,7 @@ ul{
 
     ul li{
       background-color: #f68;
-      width: 100px;
+      width: 25%;
       padding:2rem;
       display: inline-block;
     }
