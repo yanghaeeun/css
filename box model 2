@@ -46,6 +46,8 @@
     border:1px solid #000
     padding:50px;
     margine:50px;
+    padding:0 1rem;
+    margin:0 2rem;
    }
 
   </style>
