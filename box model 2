@@ -36,19 +36,33 @@
       
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> afcae45f60099819a35bd7f03732ca155a491863
     
 ul{
   width:80%
   margine:50px auto;
+<<<<<<< HEAD
   background-color:#ccc}
 >>>>>>> ac67f3f (0914)
+=======
+  background-color:#ccc
+  text-align: center;
+}
+
+>>>>>>> afcae45f60099819a35bd7f03732ca155a491863
 
     ul li{
       background-color: #f68;
       width: 100px;
       padding:2rem;
+<<<<<<< HEAD
       display: inline;
+=======
+      display: inline-block;
+>>>>>>> afcae45f60099819a35bd7f03732ca155a491863
     }
 
    .test{
