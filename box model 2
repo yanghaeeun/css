@@ -35,19 +35,26 @@
       margin:100px atuo;
       
     }
+    
+ul{
+  width:80%
+  margine:50px auto;
+  background-color:#ccc
+  text-align: center;
+}
+
 
     ul li{
       background-color: #f68;
       width: 100px;
+      padding:2rem;
+      display: inline-block;
     }
 
    .test{
     background-color: #6f8;
     border:1px solid #000
     padding:50px;
-    margine:50px;
-    padding:0 1rem;
-    margin:0 2rem;
    }
 
   </style>
