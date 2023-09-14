@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>box modle 계산법  </title>
+  <!-- 외부의 css를 불러올때 -->
+  <link rel="stylesheet" href="asset/css/style1.css">
+  <!-- html 문서내에서 css 선언 -->
+  <style>
+
+   /* .box:nth-of-type(2){
+      padding:28px 50px;
+      background-color: #f00;
+    }
+   .box:nth-of-type(3){
+      padding:10px 20px 30px;
+      background-color: #00f;
+    } */
+    
+  *{padding:0:margine:0;}
+   h1{
+    background-color: #f68;
+   }
+
+
+    .box:nth-of-type(1){
+    margin:50px}
+
+    .box:nth-of-type(2) {
+      background-color: #ccc;
+      width: 300px;
+      padding:30px 50px
+      border:1px solid #000;
+      margin:100px atuo;
+      
+    }
+
+    ul li{
+      background-color: #f68;
+      width: 100px;
+    }
+
+   .test{
+    background-color: #6f8;
+    border:1px solid #000
+    padding:50px;
+    margine:50px;
+   }
+
+  </style>
+  
+</head>
+<!-- 태그에 인라인으로 css적용 -->
+<body>
+  <h1 class="page-title">웹폰트 사용</h1>
+
+  <div class="box">Lorem <span class="test">ipsum dolor</span> sit amet consectetur adipisicing elit. Reprehenderit deleniti voluptates nisi veniam, debitis laboriosam accusantium dolorum tenetur eum adipisci temporibus expedita cumque nulla illum modi a qui. Eos, cupiditate?</div>
+  <!-- .box>lorem -->
+  <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum qui pariatur eveniet quas at illo placeat aliquam enim tenetur magni, velit iste ab architecto quae! Assumenda fugit id sit suscipit!</div>
+  <!-- ul>li*4>a>{text$} -->
+  <ul>
+    <li><a href="">text1</a></li>
+    <li><a href="">text2</a></li>
+    <li><a href="">text3</a></li>
+    <li><a href="">text4</a></li>
+  </ul>
+  <!-- .box>lorem -->
+  <div class="box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, quae unde ducimus nemo accusamus veniam laboriosam vitae veritatis in ut. Incidunt at quibusdam aspernatur ea voluptatibus nobis repellat rerum error!</div>
+ </body>
+</html>
