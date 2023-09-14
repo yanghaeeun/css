@@ -36,6 +36,10 @@
       
     }
 
+    ul li{
+      background-color: #f68;
+      width: 100px;
+    }
 
 
   </style>
